@@ -7,16 +7,16 @@ using Microsoft.AspNet.SignalR.Client;
 
 namespace SignalRDemo.Client
 {
-     static class Program
+   internal  static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
            Get();
         }
 
-         static void Get()
+        private static void Get()
         {
-            var url = "http://localhost:10086/";
+            const string url = "http://localhost:10086/";
             var connection=new HubConnection(url);
             var chatHub = connection.CreateHubProxy("ChatHub");
             connection.Start().ContinueWith(item =>
@@ -26,7 +26,7 @@ namespace SignalRDemo.Client
                     Console.WriteLine("连接故障1");
                 }
             });
-            var broadcastHandler = chatHub.On<string, string>("broadcast", (name, message) =>
+            var broadcastHandler = chatHub.On<string, string>("Broadcast", (name, message) =>
             {
                 Console.WriteLine($"[{DateTime.Now:HH:mm:ss}]{name}：{message}");
             });

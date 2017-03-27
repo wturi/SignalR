@@ -7,7 +7,7 @@ using Microsoft.Owin.Hosting;
 
 namespace SignalRDemo.Service
 {
-    internal static class Program
+    internal class Program
     {
         private static void Main(string[] args)
         {

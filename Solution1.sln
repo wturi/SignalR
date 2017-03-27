@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{D8B9D6B7-3038-4902-9163-50D07E4FE578}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRDemo.Service", "SignalRDemo.Service\SignalRDemo.Service.csproj", "{B82581D3-B46C-4650-AED5-F04CBA839CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRDemo.Client", "SignalRDemo.Client\SignalRDemo.Client.csproj", "{E37A3DDB-FA95-44B3-B2EB-26B986839B7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D8B9D6B7-3038-4902-9163-50D07E4FE578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8B9D6B7-3038-4902-9163-50D07E4FE578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8B9D6B7-3038-4902-9163-50D07E4FE578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82581D3-B46C-4650-AED5-F04CBA839CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82581D3-B46C-4650-AED5-F04CBA839CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82581D3-B46C-4650-AED5-F04CBA839CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82581D3-B46C-4650-AED5-F04CBA839CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37A3DDB-FA95-44B3-B2EB-26B986839B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37A3DDB-FA95-44B3-B2EB-26B986839B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37A3DDB-FA95-44B3-B2EB-26B986839B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37A3DDB-FA95-44B3-B2EB-26B986839B7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
